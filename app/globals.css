@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
 
 :root {
   --background: 0 0% 100%;
@@ -65,7 +65,7 @@
   }
   body {
     @apply bg-background text-foreground font-sans;
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-family: "Inter", system-ui, -apple-system, sans-serif;
   }
 }
 
@@ -73,17 +73,17 @@
   .glass {
     @apply backdrop-blur-md bg-white/10 border border-white/20;
   }
-  
+
   .glass-dark {
     @apply backdrop-blur-md bg-black/10 border border-black/20;
   }
 
   .golden-gradient {
-    background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FF8C00 100%);
+    background: linear-gradient(135deg, #ffd700 0%, #ffa500 50%, #ff8c00 100%);
   }
 
   .text-gradient {
-    background: linear-gradient(135deg, #FFD700 0%, #FF8C00 100%);
+    background: linear-gradient(135deg, #ffd700 0%, #ff8c00 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
